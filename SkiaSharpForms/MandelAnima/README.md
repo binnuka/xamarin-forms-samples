@@ -1,17 +1,14 @@
 ---
-name: Mandelbrot Animation
-description: This program demonstrates bitmap animation using SkiaSharp. Running the program requires some patience because it first needs to create up to 50 bi...
-topic: sample
+name: Xamarin.Forms - Mandelbrot Animation
+description: "This program demonstrates bitmap animation using #skiasharp. Running the program requires some patience because it needs to create up to 50..."
+page_type: sample
 languages:
 - csharp
 products:
 - xamarin
-technologies:
-- xamarin-forms
 urlFragment: skiasharpforms-mandelanima
 ---
-Mandelbrot Animation
-====================
+# Mandelbrot Animation
 
 This program demonstrates bitmap animation using SkiaSharp. Running the program requires some patience because it first needs to create up to 50 bitmaps of various zoom levels of the famous Mandelbrot Set. After that's finished, however, the program animates those bitmaps to simulate a continuous zoom.
 
@@ -35,8 +32,9 @@ When you first run the program, the `Label` at the top of the program shows whic
 
 For some devices, the animation runs smoother if the program is not being run under control of Visual Studio's debugger.
 
-Author
-------
+![Mandelbrot Animation application screenshot](Screenshots/MandelbrotAnimation.png "Mandelbrot Animation application screenshot")
+
+## Author
 Charles Petzold
 
 

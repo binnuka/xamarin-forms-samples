@@ -1,19 +1,19 @@
 ---
-name: Xamarin.Forms WebView
-description: This sample relates to the [ WebView in Xamarin.Forms](https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/webview) doc.  The app consi...
-topic: sample
+name: Xamarin.Forms - WebView
+description: "This sample relates to the WebView in Xamarin.Forms doc. The app consists of two tabs. One tab demonstrates how to navigate within a WebView (UI)"
+page_type: sample
 languages:
 - csharp
 products:
 - xamarin
-technologies:
-- xamarin-forms
+extensions:
+    tags:
+    - ui
 urlFragment: userinterface-webview
 ---
-Xamarin.Forms WebView
-==============
+# Xamarin.Forms WebView
 
-This sample relates to the [ WebView in Xamarin.Forms](https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/webview) doc.
+This sample relates to the [WebView in Xamarin.Forms](https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/webview) doc.
 
 The app consists of two tabs. One tab demonstrates how to navigate within a `WebView`, taking advantage of:
 
@@ -29,7 +29,4 @@ The other tab demonstrates how to listen for and respond to changes in navigatio
 - **Navigating** - event raised when the `WebView` begins navigating to a new page.
 - **Navigated** - event raised when the `WebView` has completed navigating.
 
-Author
-------
-
-Nathan C. Castle
+![Xamarin.Forms WebView application screenshot](Screenshots/load_end.png "Xamarin.Forms WebView application screenshot")

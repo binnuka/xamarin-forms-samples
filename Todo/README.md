@@ -1,17 +1,17 @@
 ---
-name: Todo
-description: 'This sample demonstrates a Todo list application where the data is stored and accessed in a local SQLite database.  The app functionality is:  - Vi...'
-topic: sample
+name: Xamarin.Forms - Todo
+description: 'This sample demonstrates a Todo list application where the data is stored and accessed in a local SQLite database (get started)'
+page_type: sample
 languages:
 - csharp
 products:
 - xamarin
-technologies:
-- xamarin-forms
+extensions:
+    tags:
+    - getstarted
 urlFragment: todo
 ---
-Todo
-====
+# Todo
 
 This sample demonstrates a Todo list application where the data is stored and accessed in a local SQLite database.
 
@@ -23,13 +23,6 @@ The app functionality is:
 
 In all cases the tasks are stored in a local SQLite database.
 
-For more information about the sample see [Working with a Local Database](https://developer.xamarin.com/guides/xamarin-forms/working-with/databases/).
+For more information about the sample see [Working with a Local Database](https://docs.microsoft.com/xamarin/xamarin-forms/data-cloud/data/databases).
 
-_Note_: This sample may not work on Xamarin Live Player due to dependency on SQLite.
-
-Learn more about Xamarin Live Player limitations [here](https://developer.xamarin.com/guides/cross-platform/live/limitations/#Limitations)
-
-Authors
--------
-
-Craig Dunn, Bryan Costanich
+![Todo application screenshot](Screenshots/01All.png "Todo application screenshot")
